@@ -1,0 +1,71 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.glavaKolona {
+    /*border: 1px solid black;*/
+    margin: 0px auto;
+    width: 1000px;
+}
+
+.header {
+    border-bottom: 2px solid #2098e9;
+}
+
+.page {
+    /* border: 1px solid black;*/
+    height: 100vh;
+}
+
+.footer {
+    height: 80px;
+}
+
+#topHeader {
+    display: flex;
+}
+
+#logo {
+    flex-grow: 1;
+    padding: 5px;
+}
+
+#logo img {
+    height: 60px;
+}
+
+#socialIcons {
+    flex-grow: 1;
+    text-align: right;
+}
+
+#socialIcons a {
+    text-decoration: none;
+}
+
+#socialIcons a img {
+    width: 24px;
+    height: 24px;
+    margin: 5px;
+}
+
+#main-menu {
+    display: flex;
+}
+
+#main-menu a {
+    flex-grow: 1;
+    text-align: center;
+    display: block;
+    padding: 20px 0px;
+    text-decoration: none;
+    color: #2098e9;
+}
+
+#main-menu a:hover,
+#main-menu a.active {
+    background-color: #2098e9;
+    color: white;
+    transition: 350ms;
+}
