@@ -87,13 +87,6 @@ body {
     background-attachment: fixed;
 }
 
-#usluge {
-    background: url('/asseet/usluge.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-
 #karijera {
     height: 70vh;
     background-color: aquamarine;
@@ -157,4 +150,57 @@ body {
 
 .tehologija p {
     font-weight: bold;
+}
+
+
+/*Peto predavanje */
+
+#usluge {
+    color: white;
+    height: 50vh;
+    background: url('/asseet/usluge.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#usluge h2 {
+    padding-top: 40px;
+}
+
+.usluge-row {
+    display: flex;
+    margin: 40px;
+    justify-content: space-between;
+}
+
+.usluge-row>div {
+    text-align: center;
+    width: 420px;
+    height: 260px;
+    position: relative;
+    border: 1px solid white;
+}
+
+.usluge-row>div>img {
+    width: 420px;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.usluge-row>div>p {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.636);
+    color: black;
+    margin-bottom: 0px;
+    font-weight: bold;
+    border-top: 1px solid white;
 }
