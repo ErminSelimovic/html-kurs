@@ -204,3 +204,68 @@ body {
     font-weight: bold;
     border-top: 1px solid white;
 }
+
+
+/*Šesto predavanje */
+
+#proizvodi h2 {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.matrica {
+    margin-top: 40px;
+    height: 500px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template: "a b c" "d b e" "f f g";
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+#proizvod-a {
+    grid-area: a;
+}
+
+#proizvod-b {
+    grid-area: b;
+}
+
+#proizvod-c {
+    grid-area: c;
+}
+
+#proizvod-d {
+    grid-area: d;
+}
+
+#proizvod-e {
+    grid-area: e;
+}
+
+#proizvod-f {
+    grid-area: f;
+}
+
+#proizvod-g {
+    grid-area: g;
+}
+
+.proizvod {
+    display: grid;
+    grid-template: "region";
+    align-content: stretch;
+    justify-content: stretch;
+}
+
+.proizvod>img {
+    grid-area: region;
+    justify-self: stretch;
+    align-self: stretch;
+    width: 150px;
+    height: 150px;
+}
+
+span {
+    grid-area: region;
+}
